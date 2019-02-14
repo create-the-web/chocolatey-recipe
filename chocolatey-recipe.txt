@@ -1,52 +1,36 @@
 # source control tools
 choco install winmerge
-choco install git -params '"/GitAndUnixToolsOnPath"'
-#  cmder comes with git
-#choco install Cmder  
-choco install hyper
-choco install sourcetree
+choco install git -params "/NoAutoCrlf /NoShellIntegration"
+choco install gitextensions 
 
 # webdev
-choco install fiddler4
+choco install fiddler
 choco install filezilla
 choco install nodejs.install 
-choco install prefix
 
 # utilities
-choco install  putty 
+choco install putty 
 choco install skype 
 choco install f.lux  
-choco install dotPeek
-choco install ilmerge
-choco install NugetPackageExplorer
 choco install paint.net
-#choco install PngGauntlet  #this package required manual entry
-choco install astrogrep
-choco install vagrant
-choco install greenshot
-choco install freemind
-choco install scriptcs
-choco install autohotkey.portable
-choco install zoomit
+choco install autohotkey
+#choco install zoomit
 choco install licecap
 choco install vlc
-choco install inkscape #SVG editor
-
-#languages
-choco install elixir
+choco install winscp 
 
 # editors
-choco install visualstudio2015community
-#choco install resharper
-#choco install WebStorm
-choco install pycharm-community
+choco install visualstudio2017community
+choco install resharper-platform
 choco install notepadplusplus
-choco install atom
-choco install visualstudiocode
+choco install vscode
 
 # browsers
-choco install google-chrome-x64
+choco install googlechrome
+choco install https-everywhere-chrome
 choco install Firefox
+choco install https-everywhere-firefox
+choco install opera 
 
 Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
