@@ -9,6 +9,7 @@ choco install filezilla
 choco install nodejs.install 
 
 # utilities
+choco install docker-desktop
 choco install putty 
 choco install skype 
 choco install f.lux  
@@ -36,7 +37,3 @@ Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
 
 # other not on chocolately
-# http://azurestorageexplorer.codeplex.com/
-# icons - https://www.syncfusion.com/downloads/metrostudio
-# view andriod - http://www.vysor.io/
-# OWASP ZAP https://github.com/zaproxy/zaproxy/wiki/Downloads
