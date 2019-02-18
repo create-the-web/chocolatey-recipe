@@ -11,7 +11,8 @@ choco install nodejs.install
 # utilities
 choco install docker-desktop
 choco install putty 
-choco install skype 
+choco install skype
+choco install slack
 choco install f.lux  
 choco install paint.net
 choco install autohotkey
