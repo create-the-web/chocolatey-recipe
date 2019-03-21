@@ -9,7 +9,7 @@ choco install gitextensions
 # webdev
 choco install fiddler
 choco install filezilla
-choco install nodejs.install 
+choco install nodejs-lts
 
 # utilities
 choco install docker-desktop
