@@ -44,4 +44,12 @@ choco install opera
 Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
 
-# other not on chocolately
+# IIS
+cinst -s WindowsFeatures IIS-WebServerRole
+cinst -s WindowsFeatures IIS-WebServer
+cinst -s WindowsFeatures IIS-WebServerManagementTools
+cinst -s WindowsFeatures IIS-ApplicationDevelopment
+cinst -s WindowsFeatures IIS-Performance
+cinst -s WindowsFeatures IIS-HealthAndDiagnostics
+cinst -s WindowsFeatures IIS-CommonHttpFeatures
+cinst -s WindowsFeatures IIS-NetFxExtensibility45
