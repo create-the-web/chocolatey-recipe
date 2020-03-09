@@ -12,15 +12,9 @@ choco install filezilla
 choco install nodejs-lts
 
 # utilities
-choco install docker-desktop
 choco install putty 
-choco install skype
 choco install slack
-choco install f.lux  
 choco install paint.net
-choco install autohotkey
-#choco install zoomit
-choco install licecap
 choco install vlc
 choco install winscp
 choco install everything
@@ -28,18 +22,15 @@ choco install 7zip
 choco install terminals
 
 # editors
-choco install visualstudio2017community
-choco install visualstudio2017-workload-netweb
+choco install visualstudio2019community
+choco install visualstudio2019-workload-netweb
 choco install resharper-platform
 choco install notepadplusplus
 choco install vscode
 
 # browsers
 choco install googlechrome
-choco install https-everywhere-chrome
 choco install Firefox
-choco install https-everywhere-firefox
-choco install opera 
 
 Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
